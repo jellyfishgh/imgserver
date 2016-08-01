@@ -1,0 +1,24 @@
+{
+  "name": "imgserver",
+  "version": "1.0.0",
+  "description": "img server for local markdown document by http or ftp protocol",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jellyfishgh/imgserver.git"
+  },
+  "keywords": [
+    "image-server",
+    "http",
+    "ftp"
+  ],
+  "author": "jellyfishgh",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jellyfishgh/imgserver/issues"
+  },
+  "homepage": "https://github.com/jellyfishgh/imgserver#readme"
+}
