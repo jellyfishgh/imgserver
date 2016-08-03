@@ -14,7 +14,6 @@ http.createServer((req, res) => {
     fs.stat(file, (err, stats) => {
         if (err) return errRes(res);
         if (!stats.isFile()) return errRes(res);
-        console.log(stats.size);
         fs.access(file, fs.constants.R_OK, (err) => {
             if (err) return errRes(res);
             let r = fs.createReadStream(file);
